@@ -10,11 +10,11 @@ Ensure your repository follows this layout so the Dockerfile and Action can find
 local-ai-bridge/
 ├── .github/
 │   └── workflows/
-│       └── ci-cd.yml    <-- The automation engine
+│       └── ci-cd.yml    <- The automation engine
 ├── src/
-│   └── main.py          <-- The Python bridge script
-├── Dockerfile           <-- The container definition
-└── requirements.txt     <-- dependencies (fastmcp, httpx)
+│   └── main.py          <- The Python bridge script
+├── Dockerfile           <- The container definition
+└── requirements.txt     <- dependencies (fastmcp, httpx)
 
 ```
 
